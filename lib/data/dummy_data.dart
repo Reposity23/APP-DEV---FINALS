@@ -1,0 +1,68 @@
+import 'package:toy_store/models/toy.dart';
+
+final dummyToys = [
+  Toy(
+    id: 't1',
+    name: 'Teddy Bear',
+    description: 'A soft and cuddly teddy bear.',
+    price: 29.99,
+    imageUrl: 'https://i.ibb.co/9g3v1f2/plushie-1.png',
+    categoryId: 'c1',
+  ),
+  Toy(
+    id: 't2',
+    name: 'Unicorn Plushie',
+    description: 'A magical unicorn plushie.',
+    price: 39.99,
+    imageUrl: 'https://i.ibb.co/r7C053q/plushie-2.png',
+    categoryId: 'c1',
+  ),
+  Toy(
+    id: 't3',
+    name: 'Nerf Blaster',
+    description: 'A fun and safe toy gun.',
+    price: 49.99,
+    imageUrl: 'https://i.ibb.co/f2pB92Q/toy-gun-1.png',
+    categoryId: 'c2',
+  ),
+  Toy(
+    id: 't4',
+    name: 'Water Gun',
+    description: 'Perfect for summer water fights.',
+    price: 19.99,
+    imageUrl: 'https://i.ibb.co/mXqW9C9/toy-gun-2.png',
+    categoryId: 'c2',
+  ),
+  Toy(
+    id: 't5',
+    name: 'Jigsaw Puzzle',
+    description: 'A challenging 1000-piece puzzle.',
+    price: 24.99,
+    imageUrl: 'https://i.ibb.co/6mZz6S1/puzzles-1.png',
+    categoryId: 'c3',
+  ),
+  Toy(
+    id: 't6',
+    name: 'Rubik\'s Cube',
+    description: 'The classic 3D combination puzzle.',
+    price: 14.99,
+    imageUrl: 'https://i.ibb.co/yQ7rM3S/puzzles-2.png',
+    categoryId: 'c3',
+  ),
+  Toy(
+    id: 't7',
+    name: 'Barbie Doll',
+    description: 'The iconic fashion doll.',
+    price: 34.99,
+    imageUrl: 'https://i.ibb.co/3Y0p8gW/dolls-1.png',
+    categoryId: 'c4',
+  ),
+  Toy(
+    id: 't8',
+    name: 'Action Figure',
+    description: 'A superhero action figure.',
+    price: 22.99,
+    imageUrl: 'https://i.ibb.co/M7b2JtC/dolls-2.png',
+    categoryId: 'c4',
+  ),
+];
